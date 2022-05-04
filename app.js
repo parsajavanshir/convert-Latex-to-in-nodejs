@@ -12,4 +12,4 @@ app.get("/",(req,res,next)=>{
 
 app.use('/text',text)
 var port=3000
-app.listen(port, () => console.log(`Devserver live on http://localhost:${port}`));
+app.listen(port, () => console.log(`Devserver live on port : ${port}`));
